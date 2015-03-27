@@ -1,4 +1,4 @@
-# Object-oriented Refacotring of Java Programs using Graph Transformation (TTC'2015)
+# Object-oriented Refactoring of Java Programs using Graph Transformation (TTC'2015)
 This repository contains all necessary material for the case.
 
 1.  The Case description (under construction - the reviews will be addressed shortly).
