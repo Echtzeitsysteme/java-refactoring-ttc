@@ -17,8 +17,8 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TField/tName"/>
     </genClasses>
     <genClasses ecoreClass="platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldDefinition">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldDefinition/overwriting"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldDefinition/overwritten"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldDefinition/hiding"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldDefinition/hidden"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldDefinition/signature"/>
     </genClasses>
     <genClasses ecoreClass="platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldSignature">
