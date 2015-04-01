@@ -6,7 +6,8 @@
   <foreignModel>TypeGraphBasic.ecore</foreignModel>
   <genPackages prefix="TypeGraphBasic" disposableProviderFactory="true" ecorePackage="platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#/">
     <genClasses ecoreClass="platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TClass">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TClass/inheritance"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TClass/parentClass"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TClass/childClasses"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TClass/signature"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TClass/package"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TClass/defines"/>
