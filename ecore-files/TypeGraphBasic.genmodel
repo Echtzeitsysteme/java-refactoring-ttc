@@ -19,7 +19,7 @@
     </genClasses>
     <genClasses ecoreClass="platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldDefinition">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldDefinition/hiding"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldDefinition/hidden"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldDefinition/hiddenBy"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldDefinition/signature"/>
     </genClasses>
     <genClasses ecoreClass="platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TFieldSignature">
@@ -37,9 +37,9 @@
     <genClasses ecoreClass="platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TMethodDefinition">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TMethodDefinition/signature"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TMethodDefinition/overriding"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TMethodDefinition/overridden"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TMethodDefinition/overriddenBy"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TMethodDefinition/overloading"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TMethodDefinition/overloaded"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TMethodDefinition/overloadedBy"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TMethodDefinition/returnType"/>
     </genClasses>
     <genClasses ecoreClass="platform:/plugin/TypeGraphBasic/model/TypeGraphBasic.ecore#//TMethodSignature">

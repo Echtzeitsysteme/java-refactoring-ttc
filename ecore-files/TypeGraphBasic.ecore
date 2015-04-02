@@ -17,8 +17,8 @@
     </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="TFieldDefinition" eSuperTypes="//TMember">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="hiding" upperBound="-1" eType="//TFieldDefinition" eOpposite="//TFieldDefinition/hidden"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="hidden" eType="//TFieldDefinition" eOpposite="//TFieldDefinition/hiding"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hiding" eType="//TFieldDefinition" eOpposite="//TFieldDefinition/hiddenBy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hiddenBy" eType="//TFieldDefinition" eOpposite="//TFieldDefinition/hiding"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="signature" lowerBound="1" eType="//TFieldSignature" eOpposite="//TFieldSignature/definitions"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="TFieldSignature" eSuperTypes="//TSignature">
@@ -37,10 +37,10 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="TMethodDefinition" eSuperTypes="//TMember">
     <eStructuralFeatures xsi:type="ecore:EReference" name="signature" lowerBound="1" eType="//TMethodSignature" eOpposite="//TMethodSignature/definitions"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="overriding" upperBound="-1" eType="//TMethodDefinition" eOpposite="//TMethodDefinition/overridden"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="overridden" eType="//TMethodDefinition" eOpposite="//TMethodDefinition/overriding"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="overloading" upperBound="-1" eType="//TMethodDefinition" eOpposite="//TMethodDefinition/overloaded"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="overloaded" upperBound="-1" eType="//TMethodDefinition" eOpposite="//TMethodDefinition/overloading"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="overriding" eType="//TMethodDefinition" eOpposite="//TMethodDefinition/overriddenBy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="overriddenBy" upperBound="-1" eType="//TMethodDefinition" eOpposite="//TMethodDefinition/overriding"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="overloading" upperBound="-1" eType="//TMethodDefinition" eOpposite="//TMethodDefinition/overloadedBy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="overloadedBy" upperBound="-1" eType="//TMethodDefinition" eOpposite="//TMethodDefinition/overloading"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="returnType" eType="//TClass"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="TMethodSignature" eSuperTypes="//TSignature">
