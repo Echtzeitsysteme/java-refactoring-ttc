@@ -43,7 +43,7 @@ public class Dummy implements TestInterface {
 	@Override
 	public boolean applyCreateSuperclass(Create_Superclass_Refactoring arg0) {
 		
-		return getBool("Was extract super class successful?"); //$NON-NLS-1$
+		return getBool("Was create super class successful?"); //$NON-NLS-1$
 	}
 
 	@Override
