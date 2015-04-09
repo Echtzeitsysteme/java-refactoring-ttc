@@ -1,12 +1,12 @@
 # Object-oriented Refactoring of Java Programs using Graph Transformation (TTC'2015)
 This repository contains all necessary material for the case.
 
-1.  The Case description (under construction - the reviews will be addressed shortly).
+1.  The Case description.
 
 2.  The Automated Refactoring Test Environment (ARTE).
 
 3.  TTCTestInterface, which has to be implemented by solutions in order to be compatible with ARTE 
-    (please not that one additional method will be added to also consider solutions not using the Type Graph).
+    (please note that one additional method will be added to also consider solutions not using the Type Graph).
 
 4.  Javadoc for TTCTestInterface.
 
