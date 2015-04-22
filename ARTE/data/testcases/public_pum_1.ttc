@@ -66,8 +66,6 @@ TestFile public_pum_1 {
 			
 			child1 contains child_method
 			child2 contains child_method
-			child1 ~extends not_existing_parent
-			child2 ~extends not_existing_parent
 		}
 	}
 	
