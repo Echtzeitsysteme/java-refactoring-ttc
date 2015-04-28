@@ -41,6 +41,8 @@ TestFile public_pum_1 {
 		testflow {
 			assertTrue(executable_pum)
 			
+			synchronize
+			compile
 			existing_parent contains child_method
 			child1 ~contains child_method
 			child2 ~contains child_method
@@ -64,6 +66,8 @@ TestFile public_pum_1 {
 		testflow {
 			assertFalse(not_executable_pum)
 			
+			synchronize
+			compile
 			child1 contains child_method
 			child2 contains child_method
 		}

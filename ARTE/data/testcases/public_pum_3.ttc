@@ -41,6 +41,8 @@ TestFile public_pum_3 {
 		testflow {
 			assertFalse(executable_pum_1)
 			
+			synchronize
+			compile
 			existing_parent ~contains method_to_pull_up
 			child1 contains method_to_pull_up
 			child2 contains method_to_pull_up

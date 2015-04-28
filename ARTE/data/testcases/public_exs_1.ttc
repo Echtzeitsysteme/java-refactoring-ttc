@@ -32,6 +32,8 @@ TestFile public_exs_1 {
 		testflow {
 			assertTrue(refactoring)
 			
+			synchronize
+			compile
 			child1 extends parent_to_create
 			child2 extends parent_to_create
 		}
@@ -48,7 +50,9 @@ TestFile public_exs_1 {
 		
 		testflow {
 			assertTrue(refactoring)
-			
+
+			synchronize
+			compile
 			child1 extends new_package
 			child2 extends new_package
 		}
