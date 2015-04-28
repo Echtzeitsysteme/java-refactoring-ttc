@@ -12,7 +12,7 @@ TestFile public_exs_1 {
 	
 	class parent_to_create {
 		package "example04"
-		name "parent"
+		name "Parent"
 	}
 	
 	classes childs {
@@ -25,7 +25,7 @@ TestFile public_exs_1 {
 		target parent_to_create
 	}
 	
-	case pub_exs1_1 {
+	case pub_csc1_1 {
 		description "EXS-POS: Create a superclass for two child classes not explicitly extending an other class."
 		program "paper-example04"
 		
@@ -43,18 +43,23 @@ TestFile public_exs_1 {
 		package "foo"
 		name "Foo"
 	}
+
+	create_superclass refactoring2 {
+		child childs
+		target new_package 
+	}
 	
-	case pub_exs1_2 {
+	case pub_csc1_2 {
 		description "EXS-POS: Create a superclass in a new package."
 		program "paper-example04"
 		
 		testflow {
-			assertTrue(refactoring)
+			assertTrue(refactoring2)
 
 			synchronize
 			compile
-			child1 extends new_package
-			child2 extends new_package
+			child1 extends new_package 
+			child2 extends new_package 
 		}
 	}	
 }
